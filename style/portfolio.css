@@ -29,6 +29,7 @@
 .section-heading{
   max-width: 827px;
   text-align: center;
+  margin: 0 auto;
 
 }
 .section-heading h2{
@@ -121,7 +122,6 @@ nav .menu a{
   .about-info{
     display: flex;
     margin: 30px 22.5px;
-    text-align: center;
     max-width: 782px;
     justify-content: space-around; 
   }
@@ -137,3 +137,57 @@ nav .menu a{
     font-weight: bold;
     color: #474747;
    }
+
+   #skill{
+   margin-top: 130px;
+   }
+
+   #skill .skill-container{ 
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    
+   }
+   #skill .skill-container .section-heading h1{
+    font-size: 35px;
+    color: #181818;
+    font-weight: bold;
+    padding-bottom: 30px;
+   }
+
+   #skill .skill-container .section-heading p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    padding-bottom: 50px;
+    
+   }
+   #skill .skill-box{
+    display: flex; 
+    gap: 24px;
+    justify-content: center;
+   }
+   #skill .skill-box .skill-card{
+    padding: 30px;
+    max-width: 267px;
+    box-shadow: 0 6px 50px 0 #00000060;
+   }
+   #skill .skill-box .skill-card img{
+    max-width: 44px;
+    margin-bottom: 30px;
+  
+   }
+   #skill .skill-box .skill-card h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+   
+   }
+   #skill .skill-box .skill-card p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+ 
+   }
+  

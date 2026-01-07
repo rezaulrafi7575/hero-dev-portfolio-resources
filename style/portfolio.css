@@ -26,6 +26,9 @@
   padding: 18px 35px;
   cursor: pointer;
 }
+.text-center{
+  text-align: center;
+}
 .section-heading{
   max-width: 827px;
   text-align: center;
@@ -49,7 +52,7 @@ header{
   background-color: #FFF8F3;
   background: url("../images/developer.png"), url("../images/header_bg.png"),#FFF8F3;
   background-repeat: no-repeat;
-  background-position: top left, bottom right;
+  background-position:38px 23px, bottom right;
   padding-top: 50px;
 }
 
@@ -232,4 +235,51 @@ nav .menu a{
     color:#757575;
     line-height: 28px;
     
+  }
+
+  footer{
+    margin-top: 113px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+  }
+
+  .footer-container{
+    width: 71%;
+    max-width: 1139px;
+    margin: 0 auto;
+    display: flex;
+    gap: 117px;
+  }
+
+  .social{
+    max-width: 562px;
+
+  }
+  .footer-container h2{
+    font-size: 35px;
+    color: #181818;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+  }
+
+  .social p{
+    font-size: 16px;
+    color: #474747;
+    line-height: 28px;
+    margin-bottom: 30px;
+  }
+  .icons a{
+    margin-right: 24px;
+    
+  }
+
+  .form input[type="text"],.form textarea{
+    width: 461px;
+    border-radius: 5px;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    border: none;
+    color: #474747;
+
   }
